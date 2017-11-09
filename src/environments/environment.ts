@@ -4,5 +4,8 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  mapbox: {
+    accessToken: 'pk.eyJ1Ijoibm95bG95IiwiYSI6ImNqOXNmazJvYTZmaDAyd3BhMHY4cmxpdjIifQ.MbYMUx9CnTU8VxryyooyRg'
+  }
 };
